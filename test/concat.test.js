@@ -9,6 +9,6 @@ describe('Concat Method testing', () => {
   });
 
   it('can concat two arrays together', () => {
-    expect(multipleArraysConcated).toEqual([3, 5, 7, 9, 'orange', 'blue', 16, 23]);
+    expect(multipleArraysConcated).toEqual([3, 5, 7, 9, 'orange', 'blue', 16, 23, 'yellow', 50, 4, 'brown']);
   });
 });

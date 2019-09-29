@@ -6,7 +6,7 @@ const {
 
 describe('slice test cases', () => {
   it('can make a copy of the original', () => {
-    expect(makeWholeCopy).toEqual([1, 'hi', 7, 'my wife']);
+    expect(makeWholeCopy).toEqual([1, 'hi', 7, 'my wife', 5, 8, 9, 'dino', 'turtle']);
   });
 
   it('can make a copy from starting/ending indexes', () => {
